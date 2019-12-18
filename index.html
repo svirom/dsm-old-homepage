@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>DSM Manager</title>
+
+    <!-- Bootstrap -->
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+<!--Header section -->
+    <nav class="navbar navbar-fixed-top main_nav">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                    <span class="sr-only">Open navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://www.dsmtool.com/"><img src="img/Logo.png" alt="Logo" class="img-responsive"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="responsive-menu">
+                <ul class="nav navbar-nav home_nav">
+                    <li><a href="#home_section">Home</a></li>
+                    <li><a href="#offer_section">Features</a></li>
+	                <li><a href="#pricing">Pricing</a></li>
+	                <li><a href="https://www.dsmtool.com/blog">Blog</a></li>
+	                <li><a href="#">Contact us</a></li>
+                </ul>
+                <div class="right-buttons">
+	            	<a class="btn btn-success" href="/signin">Login</a>
+	            	<a class="btn btn-warning" href="/signup">Signup</a>
+	            </div>
+            </div>
+        </div>
+    </nav>
+    
+<!--End Header section -->
+
+<!--Header section -->
+    <div class="container-fluid header_section" id="home_section">
+    	<div class="col-md-12 header_content">
+            <h1>Everything you need for<br> your Drop Shipping business.</h1>
+            <p>Drop Shipping Managment platform</p>
+            <div class="change_rows">
+                <p>
+                   <span class="change_text"></span>
+                   <span class="static_text">FREE</span>
+                </p>
+            </div>
+            <p>Start your free 50 listings plan. It's free forever!</p>
+            <div class="header_buttons">
+                <a class="btn btn-trial" href="#">FREE TRIAL</a>
+                <a class="btn btn-link" href="#pricing">See our plans</a>
+            </div>
+    	</div>
+        <a href="#offer_section" class="readmore">read more<img src="img/readmore.png" alt="Readmore"></a>
+    </div>
+<!--End Header section -->
+
+<!--What Do We Offer section -->
+    <div class="container-fluid offer_section" id="offer_section">
+        <div class="row">
+            <h2>What do we offer</h2>
+            <div class="col-md-4 left_section">
+                <div class="center_buttons"><img src="img/shopping_cart.png" alt="Shopping cart"></div>
+                <div class="outer_buttons"></div>
+                <div class="menu_wrapper" id="menu_wrapper">
+                    <ul>
+                        <li>
+                            <a href="#store_opt" data-count="0">
+                                <img src="img/left_button_1.png" class="normal_button" alt="Button">
+                                <img src="img/left_button_1_active.png" class="active_button" alt="Button">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#items_search" data-count="1">
+                                <img src="img/left_button_2.png" class="normal_button" alt="Button">
+                                <img src="img/left_button_2_active.png" class="active_button" alt="Button">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#support_system" data-count="2">
+                                <img src="img/left_button_3.png" class="normal_button" alt="Button">
+                                <img src="img/left_button_3_active.png" class="active_button" alt="Button">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#sale_stats" data-count="3">
+                                <img src="img/left_button_4.png" class="normal_button" alt="Button">
+                                <img src="img/left_button_4_active.png" class="active_button" alt="Button">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#crm_auto" data-count="4">
+                                <img src="img/left_button_5.png" class="normal_button" alt="Button">
+                                <img src="img/left_button_5_active.png" class="active_button" alt="Button">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#smart_list" data-count="5">
+                                <img src="img/left_button_6.png" class="normal_button" alt="Button">
+                                <img src="img/left_button_6_active.png" class="active_button" alt="Button">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="button_text button_1_text" data-count="0">
+                    <img src="img/left_button_1_text.png" alt="Button">
+                    <p>Store Optimization</p>
+                </div>
+                <div class="button_text button_2_text" data-count="1">
+                    <img src="img/left_button_2_text.png" alt="Button">
+                    <p>Advance Items Search</p>
+                </div>
+                <div class="button_text button_3_text" data-count="2">
+                    <p>Customer Support System</p>
+                    <img src="img/left_button_3_text.png" alt="Button">
+                </div>
+                <div class="button_text button_4_text" data-count="3">
+                    <img src="img/left_button_3_text.png" alt="Button">
+                    <p>Sale Statistics</p>
+                </div>
+                <div class="button_text button_5_text" data-count="4">
+                    <img src="img/left_button_2_text.png" alt="Button">
+                    <p>CRM & Auto Ordering</p>
+                </div>
+                <div class="button_text button_6_text" data-count="5">
+                    <img src="img/left_button_1_text.png" alt="Button">
+                    <p>Smart Lister & Templates</p>
+                </div>
+            </div>
+            <div class="col-md-8 right_section">
+                <div class="right_panel active" id="store_opt">
+                    <div class="right_img">
+                        <img src="img/offer_placeholder.jpg" alt="Placeholder">
+                    </div>
+                    <div class="right_text">
+                        <h4>Store Optimization</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p>Lorem Ipsum has been the industry's standard dummy text</p>
+                    </div>
+                </div>
+                <div class="right_panel" id="items_search">
+                    <div class="right_img">
+                        <img src="img/offer_placeholder.jpg" alt="Placeholder">
+                    </div>
+                    <div class="right_text">
+                        <h4>Advance Items Search</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p>Lorem Ipsum has been the industry's standard dummy text</p>
+                    </div>
+                </div>
+                <div class="right_panel" id="support_system">
+                    <div class="right_img">
+                        <img src="img/offer_placeholder.jpg" alt="Placeholder">
+                    </div>
+                    <div class="right_text">
+                        <h4>Customer Support System</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p>Lorem Ipsum has been the industry's standard dummy text</p>
+                    </div>
+                </div>
+                <div class="right_panel" id="sale_stats">
+                    <div class="right_img">
+                        <img src="img/offer_placeholder.jpg" alt="Placeholder">
+                    </div>
+                    <div class="right_text">
+                        <h4>Sale Statistics</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p>Lorem Ipsum has been the industry's standard dummy text</p>
+                    </div>
+                </div>
+                <div class="right_panel" id="crm_auto">
+                    <div class="right_img">
+                        <img src="img/offer_placeholder.jpg" alt="Placeholder">
+                    </div>
+                    <div class="right_text">
+                        <h4>CRM & Auto Ordering</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p>Lorem Ipsum has been the industry's standard dummy text</p>
+                    </div>
+                </div>
+                <div class="right_panel" id="smart_list">
+                    <div class="right_img">
+                        <img src="img/offer_placeholder.jpg" alt="Placeholder">
+                    </div>
+                    <div class="right_text">
+                        <h4>Smart Lister & Templates</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p>Lorem Ipsum has been the industry's standard dummy text</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--End What Do We Offer section -->
+
+<!--Our Plans section -->
+    <div class="container-fluid plans_section" id="pricing">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-xs-12 plans-box">
+                <div class="plans-page-slider">
+                    <section id="content">
+                        <h4 class="mb">Our reasonable plans</h4>
+                        <div class="cube">
+                            <div id="slider-range-min"></div>
+                        </div>
+                        <p>Drag the slider to see our plans</p>
+                        <div class="change_var">
+                            <h2 id="plan-name" class="plan-name-tag upgrade-btn"></h2>
+                            <div class="outer_prices">
+                                <p id="price"><span></span> /mo</p>
+                                <p id="amount"><span></span> /listings</p>
+                                <p id="price-per-list"><span></span> /per list</p>
+                            </div>
+                            <div class="features">
+                                <div class="feature"><i class="fa fa-flask"></i> Dashboard Alerts</div>
+                                <div class="feature"><i class="fa fa-amazon"></i> Multiple Source vendors</div>
+                                <div class="feature"><i class="fa fa-dashboard"></i> Title Optimization</div>
+                                <div class="feature"><i class="fa fa-envelope-o"></i> Messages Center & Auto feedbacks</div>
+                                <div class="feature"><i class="fa fa-chrome"></i> Chrome Extension Bot</div>
+                                <!-- Pro -->
+                                <div class="feature pro" style="display:none"><i class="fa fa-coffee"></i> Personal Customer Service</div>
+                                <div class="feature pro" style="display:none"><i class="fa fa-ticket"></i> Auto-orders coupon</div>
+                                <!-- Royal -->
+                                <div class="feature pro royal" style="display:none"><!--<i class="fa fa-truck"></i> Chili-tracker coupon <sup>FREE</sup>--></div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>       
+    </div>
+<!--End Our Plans section -->
+
+<!--Try section -->
+    <div class="container-fluid try_section">
+        <div class="header_buttons">
+            <p>Try DSMTool and start selling today!</p>
+            <a class="btn btn-trial" href="#">FREE TRIAL</a>
+        </div> 
+    </div>
+<!--End Try section -->
+
+<!--Stores section -->
+    <div class="container-fluid stores_section">
+        <div class="row">
+            <h4>Supported Stores</h4>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 us_stores">
+                        <h6>United States</h6>
+                        <div class="img_stores">
+                            <img src="img/us_store_img.png" alt="State">
+                        </div>
+                        <a class="btn btn-link" href="#">Need another store ?</a>
+                    </div>
+                    <div class="col-md-12 uk_stores">
+                        <h6>United Kingdom</h6>
+                        <div class="img_stores">
+                            <img src="img/uk_store_img.png" alt="State">
+                        </div>
+                        <a class="btn btn-link" href="#">Need another store ?</a>
+                    </div>
+                    <div class="col-sm-4 stores_1">
+                        <div class="ge_stores">
+                            <h6>Germany</h6>
+                            <div class="img_stores">
+                                <img src="img/ge_store_img.png" alt="State">
+                            </div>
+                            <a class="btn btn-link" href="#">Need another store ?</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 stores_2">
+                        <div class="fr_stores">
+                            <h6>France</h6>
+                            <div class="img_stores">
+                                <img src="img/ge_store_img.png" alt="State">
+                            </div>
+                            <a class="btn btn-link" href="#">Need another store ?</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 stores_3">
+                        <div class="ca_stores">
+                            <h6>Canada</h6>
+                            <div class="img_stores">
+                                <img src="img/ge_store_img.png" alt="State">
+                            </div>
+                            <a class="btn btn-link" href="#">Need another store ?</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--End Stores section -->
+
+<!--Carousel section -->
+    <div class="container-fluid carousel_section">
+        <div class="row">
+            <h4>Our customers reviews</h4>
+            <div class="container">
+                <div class="row">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="10000">
+                        
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+
+                        	<div class="item item_review active">
+                                <div class="item_header">
+                                    <p><i class="fa fa-facebook-official" aria-hidden="true"></i></p>
+                                </div>
+                                <div class="item_content">
+                                    <div class="item_icon">
+                                        <img src="img/review_icon1.jpg" alt="Icon">
+                                        <p class="item_name">Syeda Nafia</p>
+                                        <p class="item_time">November 26 at 3:48pm <i class="fa fa-globe" aria-hidden="true"></i></p>
+                                    </div>
+                                    <div class="item_text">
+                                        <p>What's an amazing tool, Make our work easy,<br> we enjoy it always.</p>
+                                    </div>
+                                </div>
+                                <div class="item_footer">
+                                    <ul>
+                                        <li class="active"><a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like</a></li>
+                                        <li><a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> Comment</a></li>
+                                        <li><a href="#"><i class="fa fa-share" aria-hidden="true"></i> Share</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="item item_review">
+                                <div class="item_header">
+                                    <p><i class="fa fa-facebook-official" aria-hidden="true"></i></p>
+                                </div>
+                                <div class="item_content">
+                                    <div class="item_icon">
+                                        <img src="img/review_icon2.jpg" alt="Icon">
+                                        <p class="item_name">Shai Waisbrod</p>
+                                        <p class="item_time">November 22 at 12:26pm <i class="fa fa-globe" aria-hidden="true"></i></p>
+                                    </div>
+                                    <div class="item_text">
+                                        <p>This is an amazing tool, allowing me to make money from home for over a year now!</p>
+                                    </div>
+                                </div>
+                                <div class="item_footer">
+                                    <ul>
+                                        <li class="active"><a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like</a></li>
+                                        <li><a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> Comment</a></li>
+                                        <li><a href="#"><i class="fa fa-share" aria-hidden="true"></i> Share</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="item item_review">
+                                <div class="item_header">
+                                    <p><i class="fa fa-facebook-official" aria-hidden="true"></i></p>
+                                </div>
+                                <div class="item_content">
+                                    <div class="item_icon">
+                                        <img src="img/review_icon3.jpg" alt="Icon">
+                                        <p class="item_name">Moran Feliba</p>
+                                        <p class="item_time">November 22 at 12:25pm <i class="fa fa-globe" aria-hidden="true"></i></p>
+                                    </div>
+                                    <div class="item_text" style="direction: rtl;">
+                                        <p>המוניטור הטוב בעולם
+מחזיק לי את כל העסק
+ממשק נוח,שירות לקוחות מדהים.
+אוהב אתכם חברים</p>
+                                    </div>
+                                </div>
+                                <div class="item_footer">
+                                    <ul>
+                                        <li class="active"><a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like</a></li>
+                                        <li><a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> Comment</a></li>
+                                        <li><a href="#"><i class="fa fa-share" aria-hidden="true"></i> Share</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                       
+                            <div class="item item_review">
+                                <div class="item_header">
+                                    <p><i class="fa fa-facebook-official" aria-hidden="true"></i></p>
+                                </div>
+                                <div class="item_content">
+                                    <div class="item_icon">
+                                        <img src="img/review_icon4.jpg" alt="Icon">
+                                        <p class="item_name">John F Muñoz</p>
+                                        <p class="item_time">November 14 at 3:14pm <i class="fa fa-globe" aria-hidden="true"></i></p>
+                                    </div>
+                                    <div class="item_text">
+                                        <p>It seems to me a very good tool, it's very useful,<br> it gives us a lot of work</p>
+                                    </div>
+                                </div>
+                                <div class="item_footer">
+                                    <ul>
+                                        <li class="active"><a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like</a></li>
+                                        <li><a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> Comment</a></li>
+                                        <li><a href="#"><i class="fa fa-share" aria-hidden="true"></i> Share</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="item item_review">
+                                <div class="item_header">
+                                    <p><i class="fa fa-facebook-official" aria-hidden="true"></i></p>
+                                </div>
+                                <div class="item_content">
+                                    <div class="item_icon">
+                                        <img src="img/review_icon5.jpg" alt="Icon">
+                                        <p class="item_name">Reteghi Victor</p>
+                                        <p class="item_time">September 12 <i class="fa fa-globe" aria-hidden="true"></i></p>
+                                    </div>
+                                    <div class="item_text">
+                                        <p>really pleased to work with this software,<br> great tool!</p>
+                                    </div>
+                                </div>
+                                <div class="item_footer">
+                                    <ul>
+                                        <li class="active"><a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like</a></li>
+                                        <li><a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> Comment</a></li>
+                                        <li><a href="#"><i class="fa fa-share" aria-hidden="true"></i> Share</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="item item_review">
+                                <div class="item_header">
+                                    <p><i class="fa fa-facebook-official" aria-hidden="true"></i></p>
+                                </div>
+                                <div class="item_content">
+                                    <div class="item_icon">
+                                        <img src="img/review_icon6.jpg" alt="Icon">
+                                        <p class="item_name">Daisy M. Yadao</p>
+                                        <p class="item_time">March 8 <i class="fa fa-globe" aria-hidden="true"></i></p>
+                                    </div>
+                                    <div class="item_text">
+                                        <p>This is Awesome tools. very easy to set up.<br> Thanks</p>
+                                    </div>
+                                </div>
+                                <div class="item_footer">
+                                    <ul>
+                                        <li class="active"><a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like</a></li>
+                                        <li><a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> Comment</a></li>
+                                        <li><a href="#"><i class="fa fa-share" aria-hidden="true"></i> Share</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="item item_review">
+                                <div class="item_header">
+                                    <p><i class="fa fa-facebook-official" aria-hidden="true"></i></p>
+                                </div>
+                                <div class="item_content">
+                                    <div class="item_icon">
+                                        <img src="img/review_icon7.jpg" alt="Icon">
+                                        <p class="item_name">George Bastas</p>
+                                        <p class="item_time">February 18 <i class="fa fa-globe" aria-hidden="true"></i></p>
+                                    </div>
+                                    <div class="item_text">
+                                        <p>Top programm in dropshipping...<br></p>
+                                    </div>
+                                </div>
+                                <div class="item_footer">
+                                    <ul>
+                                        <li class="active"><a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like</a></li>
+                                        <li><a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> Comment</a></li>
+                                        <li><a href="#"><i class="fa fa-share" aria-hidden="true"></i> Share</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="item item_review">
+                                <div class="item_header">
+                                    <p><i class="fa fa-facebook-official" aria-hidden="true"></i></p>
+                                </div>
+                                <div class="item_content">
+                                    <div class="item_icon">
+                                        <img src="img/review_icon8.jpg" alt="Icon">
+                                        <p class="item_name">Shezzy Sheikh</p>
+                                        <p class="item_time">February 1 <i class="fa fa-globe" aria-hidden="true"></i></p>
+                                    </div>
+                                    <div class="item_text">
+                                        <p>Thank you guys. you made an amazing<br> dropshipping took</p>
+                                    </div>
+                                </div>
+                                <div class="item_footer">
+                                    <ul>
+                                        <li class="active"><a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like</a></li>
+                                        <li><a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> Comment</a></li>
+                                        <li><a href="#"><i class="fa fa-share" aria-hidden="true"></i> Share</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="item item_review">
+                                <div class="item_header">
+                                    <p><i class="fa fa-facebook-official" aria-hidden="true"></i></p>
+                                </div>
+                                <div class="item_content">
+                                    <div class="item_icon">
+                                        <img src="img/review_icon9.jpg" alt="Icon">
+                                        <p class="item_name">Raz Levy</p>
+                                        <p class="item_time">January 16 <i class="fa fa-globe" aria-hidden="true"></i></p>
+                                    </div>
+                                    <div class="item_text">
+                                        <p>that's amazing dropshipping tool! user friendly and very helpful.<br> thanks.</p>
+                                    </div>
+                                </div>
+                                <div class="item_footer">
+                                    <ul>
+                                        <li class="active"><a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like</a></li>
+                                        <li><a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> Comment</a></li>
+                                        <li><a href="#"><i class="fa fa-share" aria-hidden="true"></i> Share</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="prev_control" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-triangle-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="next_control" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-triangle-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+<!--End Carousel section -->
+
+
+<!--Footer section -->
+    <div class="container-fluid main_footer">
+    	<div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 widget">
+                        <h5>Drop Shipping Tool</h5>
+                        <ul>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Payment</a></li>
+                            <li><a href="#">How to Buy</a></li>
+                            <li><a href="#">Shipping & Delivery</a></li>
+                            <li><a href="#">International Product Policy</a></li>
+                            <li><a href="#">How to Return</a></li>
+                            <li><a href="#">Question?</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Online Selling</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 widget widget_follow_us">
+                        <h5>Follow Us</h5>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 widget">
+                        <h5>Contact Us</h5>
+                        <ul>
+                            <li><a href="mailto:support@dsmtool.com">support@dsmtool.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 widget widget_fb">
+                        <h5>Join us on Facebook</h5>
+                        <ul>
+                            <li><a href="#"><img src="img/fb_1.png" alt="Icon"></a></li>
+                            <li><a href="#"><img src="img/fb_2.png" alt="Icon"></a></li>
+                            <li><a href="#"><img src="img/fb_3.png" alt="Icon"></a></li>
+                            <li><a href="#"><img src="img/fb_4.png" alt="Icon"></a></li>
+                            <li><a href="#"><img src="img/fb_5.png" alt="Icon"></a></li>
+                            <li><a href="#"><img src="img/fb_6.png" alt="Icon"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    	</div>
+    </div>
+<!--End Footer section -->
+
+<!-- Back to Top Button-->
+    <a href="#" class="back_to_top"><img src="img/readmore.png" alt="Back To Top"> top</a>
+<!-- End Back to Top Button-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
